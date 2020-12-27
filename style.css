@@ -1,0 +1,19 @@
+.header {
+    background: linear-gradient(-180deg,#f53d2d,#f63);
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    color: #ffffff;
+    padding-top: 10px;
+}
+.icon-media{
+    width: 24px;
+    height: 24px;
+}
+.hr1{
+    width: 2px;
+    height: 15px;
+    background-color: #ffffff;
+
+
+}
