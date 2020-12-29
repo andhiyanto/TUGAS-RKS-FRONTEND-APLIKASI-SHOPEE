@@ -1,14 +1,14 @@
 .header {
     background: linear-gradient(-180deg,#f53d2d,#f63);
-    height: 150px;
+    height: 145px;
     width: 100%;
     position: fixed;
     color: #ffffff;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 .icon-media{
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
 }
 .hr1{
     width: 2px;
@@ -17,18 +17,28 @@
 
 
 }
+.navbar span{
+    font-size:14px ;
+
+}
+.wrap-navbar-input{
+    margin-left: 50px;
+    width: 77%;
+
+
+}
 
 .wrap-search{
     position: relative;
-    width: 700px;
+    width: 850px;
     height: 40px;
     background: #ffffff;
+    border-radius: 3px;
 }
 .wrap-icon-s{
     position: absolute;
     background: linear-gradient(-180deg,#f53d2d,#f63);
-    border-radius: 8px;
-    width: 80px;
+    width: 60px;
     height: 87%;
     right: 4px;
     top: 50%;
@@ -52,18 +62,76 @@
     border-radius: 12px;
 }
 .icon-shop{
+    margin-left: 40px;
     width: 50px;
     height: 50px;
 }
 .img-brand{
-    width: 55px;
-    height: 65px;
+    width: 45px;
+    height: 55px;
 }
 .text-brand{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
 }
 .under-input span{
     font-size: 12px;
     font-weight: 100;
+}
+/**/
+.wrap-carousel{
+    height: 255px;
+    position: relative;
+    top: 30px;
+}
+.carousel-indicators li{
+    border: 0;
+    border-radius: 20px;
+    width: 10px;
+    height: 10px;
+
+}
+.content{
+    position: relative;
+    top: 130px;
+    background-color: rgba(206, 206, 206, 0.644);
+}
+.container{
+    width: 100%;
+}
+.jenis-sale{
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 60px;
+}
+.wrap-img{
+    border-radius: 12px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border: 1px solid #110f0f;
+
+}
+.wrap-img img{
+    width: 100%;
+    height: 100%;
+}
+/*kategori*/
+.kategori{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.card-kategori{
+    padding: 10px 5px;
+    width: 10%;
+    height: 140px;
+    border: 1px solid #888;
+}
+.card-kategori .wrap-img{
+    width: 50px;
+    height: 50px;
+    background-color: #888;
+    border-radius: 20px;
+    border: none;
 }
