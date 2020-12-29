@@ -10,6 +10,10 @@
     width: 18px;
     height: 18px;
 }
+.container{
+    max-width: 1350px;
+    padding: 0;
+}
 .hr1{
     width: 2px;
     height: 15px;
@@ -30,7 +34,7 @@
 
 .wrap-search{
     position: relative;
-    width: 850px;
+    width: 950px;
     height: 40px;
     background: #ffffff;
     border-radius: 3px;
@@ -78,7 +82,7 @@
     font-size: 12px;
     font-weight: 100;
 }
-/**/
+/*carousel */
 .wrap-carousel{
     height: 255px;
     position: relative;
@@ -93,23 +97,20 @@
 }
 .content{
     position: relative;
-    top: 130px;
-    background-color: rgba(206, 206, 206, 0.644);
+    top: 140px;
+    background-color: rgba(212, 210, 210, 0.623);
 }
-.container{
-    width: 100%;
-}
+
 .jenis-sale{
     padding: 20px;
     background-color: #ffffff;
-    margin-top: 60px;
+    margin-top: 45px;
 }
 .wrap-img{
     border-radius: 12px;
     width: 50px;
     height: 50px;
     position: relative;
-    border: 1px solid #110f0f;
 
 }
 .wrap-img img{
@@ -125,8 +126,8 @@
 .card-kategori{
     padding: 10px 5px;
     width: 10%;
-    height: 140px;
-    border: 1px solid #888;
+    height: 160px;
+    border: 1px solid rgba(192, 191, 191, 0.377);
 }
 .card-kategori .wrap-img{
     width: 50px;
@@ -134,4 +135,25 @@
     background-color: #888;
     border-radius: 20px;
     border: none;
+    margin-top: 5px;
+}
+/*flash sale*/
+.sale {
+    background-color: #ffffff;
+    padding: 13px;
+    flex-direction: column;
+}
+.sale h5{
+    color: #f53d2d;
+}
+.sale span{
+    background-color: black;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 3px;
+
+}
+.wrap-img-sale{
+    width: 100%;
+    height: 100%;
 }
