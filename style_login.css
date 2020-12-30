@@ -1,0 +1,19 @@
+.header {
+    background: linear-gradient(-180deg,#f53d2d,#f63);
+    height: 145px;
+    width: 100%;
+    position: fixed;
+    color: #ffffff;
+    padding-top: 5px;
+}
+.container{
+    max-width: 1200px;
+}
+.img-brand{
+    width: 45px;
+    height: 55px;
+}
+.text-brand{
+    font-size: 30px;
+    font-weight: 400;
+}
