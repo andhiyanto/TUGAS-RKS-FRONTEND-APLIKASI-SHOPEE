@@ -173,3 +173,11 @@ body{
 .font-title{
     color: #888;;
 }
+.a-herf{
+    text-decoration: none;
+    color: #ffffff;
+}
+.a-herf:hover {
+    text-decoration: none;
+    color: black;
+}
